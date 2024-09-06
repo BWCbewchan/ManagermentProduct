@@ -14,9 +14,12 @@ const SignUp = () => {
   };
   return (
     <div>
-      <Card style={{marginTop: "50%"}}>
+      <Card >
         <div className="text-center">
-          <Title level={2}>Create an account</Title>
+          <img src={'https://firebasestorage.googleapis.com/v0/b/kanban-fa725.appspot.com/o/canbanlogo.png?alt=media&token=68732bc4-5cfe-4b80-b6ee-9c281ac255b5'} 
+          style={{width:48, height:48}}
+          alt="" />
+          <Title style={{width: 360}} level={2}>Create an account</Title>
           <Paragraph type="secondary">
             Start your 30-day free trial.
           </Paragraph>
